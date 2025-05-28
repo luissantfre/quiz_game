@@ -9,7 +9,7 @@ body {
   height: 100vh;
   background: blueviolet;
   text-align: center;
-}#ECECEC
+}
 
 .logo {
   margin: 0px;
@@ -22,5 +22,12 @@ body {
   font-size: 20px;
   border: 2px solid yellow;
   margin-top: 50px;
+  color: blue;
+  padding: 10px 20px 10px 20px;
 
+}
+
+.tela-pergunta {
+  width: 100%;
+  height: 100vh;
 }
