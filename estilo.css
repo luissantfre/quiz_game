@@ -36,4 +36,23 @@ body {
 }
 .oi {
   width: 50%;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+.fala {
+  margin: 0 auto;
+  background: aliceblue;
+  width: 70%;
+  font-size: 30px;
+}
+.A {
+  margin: 10px;
+  background: white;
+  padding: 10px 20px 10px 20px;
+  font-size: 25px;
+  border: none;
+}
+.A:active {
+  background: greenyellow;
+  
 }
