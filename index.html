@@ -9,31 +9,40 @@
 </head>
 
 <body>
-  <div class="tela-inicial" style="display: none;">
+  <div class="tela-inicial" style="display: block;">
     <img class="logo" src="logo.png" alt="" />
     <br />
     <button class="botao">iniciar</button>
   </div> 
   
-  <div class="tela-pergunta">
+  <div class="tela-pergunta" style="display: none ;">
     <img class="oi" srcset="" src="cerebro.png">
-        <div class="pergunta">
       <div class="fala">
         quanto tempo durou a era mesozóica?
       </div>
-      <button class="A">
+      <button class="botao-apertar">
         2002 mil anos
       </button>
-       <button class="A">
+       <button class="botao-apertar">
         186 milhões de anos
       </button>
-       <button class="A">
+       <button class="botao-apertar">
         65 milhões de anos
-      </button> <button class="A">
+      </button> <button class="botao-apertar">
         295 milhões de anos
       </button>
-    </div>
+    
   </div>
+  <div class="vitoria" style="display: none ;">
+    <img src="logo.png" alt="" />
+    
+  </div>
+  
+  <div class="derrota" style="display: none ;">
+   <img class="pena" src="cerebro.png" alt="">
+    
+  </div>
+  <script src="logica.js"></script>
 </body>
 
 </html> 
